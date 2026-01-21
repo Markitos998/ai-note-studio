@@ -5,6 +5,7 @@ import { Providers } from "@/components/Providers";
 export const metadata: Metadata = {
   title: "AI Notes Studio",
   description: "Riorganizza i tuoi appunti con l'AI",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
